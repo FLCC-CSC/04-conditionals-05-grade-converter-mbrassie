@@ -1,7 +1,7 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
+# NAME: Matthew Brassie 
+# DATE: October 1
 # BRIEF DESCRIPTION:  
 
 
