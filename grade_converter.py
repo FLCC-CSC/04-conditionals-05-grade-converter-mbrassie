@@ -15,22 +15,28 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-print('===== Grade Converter =====')
 
-percent = int(input('Enter a numerical grade (1-100): '))
+print("===== Grade Converter =====")
 
-if percent > 100:
-    print('A+')
-elif percent >= 90:
-    print('A')
-elif percent >= 80:
-    print('B')
-elif percent >= 70:
-    print('C')
-elif percent >= 65:
-    print('D')
-else:
-    print('F')
+num = float(input("Enter a numerical grade (1-100): "))
+
+if num > 100:
+    print("A+")
+
+elif 100 >= num >= 90:
+    print("A")
+
+elif 90 > num >= 80:
+    print("B")
+
+elif 80 > num >= 70:
+    print("C")
+
+elif 70 > num >= 65:
+    print("D")
+
+elif num < 65:
+    print("F")
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
